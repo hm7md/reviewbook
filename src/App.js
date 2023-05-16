@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+
+import home from './Pages/Home';
+import dashboard from './Pages/Dashboard';
+
+
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.css';
+import './style/Index.css';
+
+// import "./js/script.js";
+import "./js/test.js";
+
+import useScript from './hooks/useScript';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  useScript("https://cdnjs.cloudflare.com/ajax/libs/imask/3.4.0/imask.min.js");
+
+  return ( 
+   <div>
+    <Router>
+      <Header/>
+      <Routes>
+        <Route path="/" exact Component={home}></Route>
+    
+        <Route path="/dashboard" Component={dashboard}></Route>
+      </Routes>
+      <Footer/>
+    </Router>
+  </div> 
   );
 }
 
