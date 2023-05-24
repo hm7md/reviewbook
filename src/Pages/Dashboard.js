@@ -1,10 +1,10 @@
 
-import Leftmenu from "../Components/Leftmenu";
+// import Leftmenu from "../÷Components/Leftmenu";
 
 function Dashboard () {
     return(
         <>
-        <Leftmenu/> 
+    
         </>
         
     );

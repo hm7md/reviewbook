@@ -10,14 +10,15 @@ class Header extends React.Component {
     return (     
    <header>
       <nav className="nav-bar">
-      <img id="imglogo" src={logo}/>
+      <img id="imglogo"  src={logo}/> 
         <section>
           <div className="topnav">
-              <a href="#saving">rate your reading </a>
-              <a href="#my profile">my profile</a>
-              <a href="#bettermoneyhabits">our suggestion</a>
+              <Link to='/review'> rate your reading </Link>
+              <Link to='/booklist'> book List </Link> 
               <Link to='/'>Home</Link>
-              <Link to='/dashboard'>Dashboard</Link> 
+            
+
+              
           </div>
         </section>
       </nav>

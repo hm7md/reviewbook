@@ -1,4 +1,5 @@
-// import './Index.css';
+import "../style/Index.css";
+
 function Choose () {
     return (
 <div> 
@@ -35,20 +36,10 @@ function Choose () {
           </p> 
           </div>
 
-        <div className="feature-item">
-          <img src="" alt="" />
-          <h1>Fast Onboarding</h1>
-          <p
-            >We don't do branches.Open your<br />
-            accound minutes online and start<br />
-            taking controll of your finances<br />
-            right away.
-            </p>
-        </div>
 
         <div className="feature-item">
           <img src="" alt="" />
-          <h1>Open API</h1>
+          <h1>new book to read</h1>
           <p
             >Manage your savings, investments,<br />
             pension and much more from one<br />

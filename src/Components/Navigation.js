@@ -9,10 +9,12 @@ function Navigation() {
 return (
         <section>
           <div className="topnav">
-            {/* <img id="imglogo"  src={logo}/> */}
+            <img id="imglogo"  src={logo}/> 
             <Link to='/'>Dashboard</Link> 
+            <Link to='/'>review</Link>
+            <Link to='/'>bookList</Link>
             </div>
-            <button>be a partner</button>
+            <button>rate us</button>
           </section>
           );
 }
