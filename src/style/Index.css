@@ -118,28 +118,18 @@ form .field input[type="submit"]{
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
-  background: linear-gradient(#c66b4f, #de7b5c, #c49d56);
+  background: linear-gradient(#c66b4f, #dc8b73, #c49d56);
   transition: all 0.3s ease;
 }
 form .field input[type="submit"]:active{
   transform: scale(0.95);
 }
-form .signup-link{
-  color: #262626;
-  margin-top: 20px;
-  text-align: center;
-}
 
-
-form .pass-link a:hover,
-form .signup-link a:hover{
-  text-decoration: underline;
-}
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #de7b5c ;
+  color: #de7a5c93 ;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -193,7 +183,7 @@ form .signup-link a:hover{
     background-image: linear-gradient(
       120deg,
       #de7b5c,
-      hsl(39, 77%, 30%)
+      hsl(39, 75%, 41%)
     );
   }
   .hero-section {
@@ -227,7 +217,7 @@ form .signup-link a:hover{
     line-height: 1.1;
   }
   .hero-text-container > p {
-    color: #c66b4f,;
+    color: #c66b4f8c,;
     margin-bottom: 15px;
     font-weight: 700;
   }
@@ -242,7 +232,7 @@ form .signup-link a:hover{
     background-image: linear-gradient(
       120deg,
       #e9e2b7,
-      #c66b4f,
+      #c66b4fb2,
     );
   }
   .container {
@@ -448,7 +438,7 @@ form .signup-link a:hover{
     border-radius:50%;
     box-shadow:0 0 0 1px rgba(255,255,255,0.4);
     margin:0 8px;
-    color:#503007;
+    color:#93580b;
     opacity:0.75;
   }
   
@@ -472,7 +462,7 @@ form .signup-link a:hover{
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #e9cab7; /* beige */
+  background-color:  #f8f5db;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }

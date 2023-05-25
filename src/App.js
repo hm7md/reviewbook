@@ -3,7 +3,6 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 
 import home from './Pages/Home';
-import dashboard from './Pages/Dashboard';
 
 
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
@@ -26,7 +25,6 @@ function App() {
       <Routes>
         <Route path="/" exact Component={home}></Route>
     
-        <Route path="/dashboard" Component={dashboard}></Route>
       </Routes>
       <Footer/>
     </Router>

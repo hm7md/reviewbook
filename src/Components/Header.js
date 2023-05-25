@@ -12,6 +12,7 @@ class Header extends React.Component {
       <nav className="nav-bar">
       <img id="imglogo"  src={logo}/> 
         <section>
+
           <div className="topnav">
               <Link to='/review'> rate your reading </Link>
               <Link to='/booklist'> book List </Link> 
@@ -20,8 +21,15 @@ class Header extends React.Component {
 
               
           </div>
+          
+
+
         </section>
       </nav>
+      <div id="wrapperHeader">
+      <div id="header"/>
+       <img src="images/bh.jpeg" alt="logo" />
+      </div> 
     </header>
           );
   }
